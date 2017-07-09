@@ -1,0 +1,14 @@
+import java.util.Scanner;
+public class Alphabt {
+public static void main (String[] agrs){
+    Scanner input = new Scanner(System.in);
+    String str = input.next();
+    char ch = str.charAt(0);
+    if ((ch >= 65 && ch == 90) || (ch >=97 && ch <=122)){
+        System.out.println ("aphabet");
+    }
+    else {
+        System.out.println("number");
+    }
+}
+}
